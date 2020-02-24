@@ -1,0 +1,3 @@
+.appBar>.MuiToolbar-root {
+    justify-content: space-between !important;
+}

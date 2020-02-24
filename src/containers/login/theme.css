@@ -1,0 +1,173 @@
+/*----------------------Media Query---------------------*/
+/*    Device = Most of the Smartphones Mobiles (Portrait)  Screen = B/w 320px to 479px  */
+@media (min-width: 320px) and (max-width: 480px) {
+    .login-card {
+        width: 80%;
+    }
+
+}
+
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    .login-card {
+        width: 80%;
+    }
+}
+
+
+/* Device = Tablets, Ipads (landscape) Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .login-card {
+        width: 45%;
+    }
+}
+
+/* Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .login-card {
+        width: 30%;
+    }
+}
+
+
+/* Device = Laptops, Desktops Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .login-card {
+        width: 30%;
+    }
+}
+
+
+/* Device = Desktops Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) and (max-width: 1600px) {
+    .login-card {
+        width: 21%;
+    }
+}
+
+
+@media (min-width: 1601px) {
+    .login-card {
+        width: 15%;
+    }
+}
+
+/*----------------------Media Query---------------------*/
+
+
+.login-container {
+    height: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #7abcf2 28%, #DBDFE2 50%, #93ACD2 80%);
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    padding: 10px 30px 30px 30px;
+    background: rgb(240, 240, 240);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.login-logo-container {
+    width: 60%;
+    height: 80px;
+    /* background: #9DC6ED; */
+    margin: auto;
+}
+
+.login-logo-container>.login-logo {
+    width: 175px;
+    height: 68px;
+}
+
+.login-card-caption>p:first-child,
+.login-card-caption>p:last-child {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-card-caption>p:first-child {
+    font-size: 20px;
+    color: #1C1E24;
+}
+
+.login-card-caption>p:last-child {
+    font-size: 1rem;
+    color: rgb(110, 110, 110);
+}
+
+.login-footer-section {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form>.login-input-field>.MuiOutlinedInput-root>input {
+    /* border: 1px solid red; */
+    padding: 12.5px 14px;
+    border-radius: 5px;
+}
+
+.login-input-field>.MuiFormLabel-root {
+    font-size: 0.9rem;
+    line-height: 0;
+
+}
+
+.logging-trouble-text {
+    color: #4190e2;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.logging-button {
+    background-image: linear-gradient(90deg, #64B5F6 0%, #468FD8 100%);
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 27.5px !important;
+    letter-spacing: 1.25px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    margin: 25px auto auto auto;
+}
+
+.logging-button>.login-btn {
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    height: 40px;
+    border-radius: 27.5px;
+}
+
+.logging-button>.MuiButtonBase-root>.Mui-disabled {
+    cursor: not-allowed !important;
+    background-color: gray;
+    pointer-events: visible !important;
+}
+
+.MuiButtonBase-root.Mui-disabled {
+    cursor: not-allowed !important;
+    pointer-events: visible !important;
+}
+
+.logging-button>.login-btn:hover {
+    background-color: #4190e2;
+}

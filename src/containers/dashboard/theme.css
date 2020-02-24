@@ -1,0 +1,8 @@
+#dashboard>.table-style {
+    border: 1px solid #ccc;
+    width: 75%;
+    margin: auto;
+}
+#dashboard>.table-style>.MuiTable-root>.MuiTableHead-root{
+    background-color: #ccc;
+}
